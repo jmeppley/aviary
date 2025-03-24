@@ -9,7 +9,7 @@ dependencies:
   - numpy
   - pandas
   - biopython
-  - mamba >=0.8.2
+  - mamba >=0.8.2,<2 # mambas 2 is causing problems
   - pigz =2.6
   - parallel
   - bbmap
